@@ -22,7 +22,7 @@ git clone <YOUR_GITHUB_REPO_URL>
 cd backend-intern-assignment```
 
 ### 2.Backend Setup
-```
+```bash
 cd backend
 npm install
 # Create a .env file with:
@@ -33,7 +33,7 @@ npx nodemon server.js
 ```
 
 ### 3. Frontend Setup
-```
+```bash
 cd frontend
 npm install
 npm run dev
