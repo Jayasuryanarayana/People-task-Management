@@ -19,7 +19,8 @@ A full-stack MERN application (MongoDB, Express, React, Node.js) featuring secur
 ### 1. Clone the Repo
 ```bash
 git clone <YOUR_GITHUB_REPO_URL>
-cd backend-intern-assignment```
+cd backend-intern-assignment
+```
 
 ### 2.Backend Setup
 ```bash
@@ -29,11 +30,13 @@ npm install
 # PORT=5000
 # MONGO_URI=your_mongodb_connection_string
 # JWT_SECRET=your_secret_key
-npx nodemon server.js```
+npx nodemon server.js
+```
 
 
 ### 3. Frontend Setup
 ```bash
 cd frontend
 npm install
-npm run dev```
+npm run dev
+```
