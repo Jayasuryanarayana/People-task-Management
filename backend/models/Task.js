@@ -3,7 +3,7 @@ const mongoose = require('mongoose');
 const TaskSchema = new mongoose.Schema({
     user: {
         type: mongoose.Schema.Types.ObjectId,
-        ref: 'User',
+        ref: 'User', // This links the task to a specific user
         required: true
     },
     title: {
@@ -11,13 +11,13 @@ const TaskSchema = new mongoose.Schema({
         required: true
     },
     description: {
-        type: string
+        type: String
     },
     status: {
         type: String,
         enum: ['pending', 'completed'],
         default: 'pending'
     }
-}, {timestamps: true});
+}, { timestamps: true });
 
 module.exports = mongoose.model('Task', TaskSchema);
